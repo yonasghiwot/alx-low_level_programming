@@ -6,7 +6,7 @@
 #include <stdio.h> */
 int main(void)
 {
-	char letter , e, q;
+	char letter , e , q;
 
 	e = 'e';
 	q = 'q';
