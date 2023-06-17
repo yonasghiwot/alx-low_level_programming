@@ -1,23 +1,21 @@
 /**
- * main - Prints the alphabet in lowercase, except for q and e.
+ * main - Prints the alphabet except the letters q and e.
  *
- * Return: Always 0. success 
-
-#include <stdio.h> */
+ * Return: 0 on success
+ */
+#include <stdio.h>
 int main(void)
 {
-	char letter , e , q;
+	char c = 'a';
 
-	e = 'e';
-	q = 'q';
-
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (c <= 'z')
 	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
+		if (c != 'q' && c != 'e')
+		{
+			putchar(c);
+		}
+		c++;
 	}
-
 	putchar('\n');
-
 	return (0);
 }
