@@ -1,6 +1,6 @@
  /**
- * main - entry point
- * prints all numbers of base 16 decimal.
+ * main - entry point and  prints all numbers of base 16 decimal.
+ *
  * Return: 0 on (success)
  */
 #include <stdio.h>
