@@ -1,12 +1,11 @@
- /**
- * main - entry point and  prints all numbers of base 16 decimal.
+/**
+ * main - prints all numbers of base 16.
  *
- * Return: 0 on (success)
+ * Return: 0 on success
  */
 #include <stdio.h>
 int main(void)
 {
-
 	int i = '0';
 
 	while (i <= '9')
