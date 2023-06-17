@@ -1,7 +1,8 @@
-/**
- * main - entry point and prints all numbers of base 16.
- *by yonas ghiwot  
- * Return: 0 on success
+i/**
+ * main - entry point
+ * prints all numbers of base 16 decimal.
+ *
+ * Return: 0 on (success)
  */
 
 #include <stdio.h>
