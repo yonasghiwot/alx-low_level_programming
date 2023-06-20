@@ -2,7 +2,10 @@
 
 /**
  * print_alphabet function - Entry point
- * Return:0
+ * * _putchar - writes the character c to stdout
+ * 
+ 
+ *  Return:0
  */
 void print_alphabet(void)
 {
