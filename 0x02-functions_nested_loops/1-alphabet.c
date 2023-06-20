@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * print_alphabet function - Entry point
- * * _putchar - writes the character c to stdout
- * 
- 
- *  Return:0
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line.
+ * @c: The character to print
+ * a-z: The characters to be print
+ *
+ * Return: On success 0.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 void print_alphabet(void)
 {
