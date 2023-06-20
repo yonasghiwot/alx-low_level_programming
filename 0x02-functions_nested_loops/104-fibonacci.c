@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	unsigned long int i, j, k, j1, j2, k1, k2;
-
+	unsigned long int i, j, k;
+        unsigned long int j1, j2, k1, k2;
 	j = 1;
 	k = 2;
 
