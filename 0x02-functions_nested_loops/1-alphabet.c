@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line.
- * @c: The character to print
  * a-z: The characters to be print
  *
  * Return: On success 0.
