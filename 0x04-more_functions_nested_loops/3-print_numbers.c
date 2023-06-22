@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_numbers-function that prints the numbers 0 to 9, followed by a new line.
+ * print_numbers-function that prints the numbers
+ * from 0 to 9, followed by a new line.
  * Description: Prints the numbers with _putchar using for loop
  *
  * Return: No return
