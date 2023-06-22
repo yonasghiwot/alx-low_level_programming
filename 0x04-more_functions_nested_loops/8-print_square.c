@@ -2,10 +2,9 @@
 
 /**
  * print_square - A function who print a square
- * using _putchar function to print
- * Where n is the number of times the character \ should be printed
+ * @size : is input parameter - input
  * The diagonal should end with a \n
- * If n is 0 or less, the function should only print a \n
+ * If size is 0 or less, the function should only print a \n
  * Return: Does not return anything
  */
 
