@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - a function that draws a straight line in the terminal
- * Where n is the number of times the character _ should be printed
+ *@n: is the number of times the character _ should be printed
  * The line should end with a \n
  * if n is 0 or less, the function should only print \n
  * Return: Does not return anything
