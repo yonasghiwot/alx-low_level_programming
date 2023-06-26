@@ -14,7 +14,7 @@ int main(void)
 	char letters[27] = "abcdefghijklmnopqrstuvwxyz";
 	char key[30];
 
-	sum = 0;
+	accu = 0;
 	i = 0;
 	srand(time(NULL));
 	while (accu < 2772)
