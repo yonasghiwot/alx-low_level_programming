@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
+#include <stdlib.h>
+
 
 /**
   * main - creates a random key for the program 101 crackme
@@ -8,25 +9,23 @@
   */
 int main(void)
 {
-	    int sum, i, r;
+	int accu, i, n;
 
-		char decode[27] = "abcdefghijklmnopqrstuvwxyz";
-		char key[30];
+	char letters[27] = "abcdefghijklmnopqrstuvwxyz";
+	char key[30];
 
-		sum = 0;
-		i = 0;
-
-		srand(time(NULL));
-
-		while (sum < 2772)
-		{
-			r = rand() % 10;
-			key[i] = decode[r];
-			sum += key[i];
-			i++;
-		}
-		r = 2772 - sum;
-		key[i] = r;
-		printf("%s\n",  key);
-		return (0);
+	sum = 0;
+	i = 0;
+	srand(time(NULL));
+	while (accu < 2772)
+	{
+		r = rand() % 10;
+		key[i] = letters[r];
+		accu += key[i];
+		i++;
+	}
+	n = 2772 - accu;
+	key[i] = n;
+	printf("%s\n",  key);
+	return (0);
 }
