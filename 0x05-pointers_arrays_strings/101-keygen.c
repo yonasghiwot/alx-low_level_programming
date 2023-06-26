@@ -19,8 +19,8 @@ int main(void)
 	srand(time(NULL));
 	while (accu < 2772)
 	{
-		r = rand() % 10;
-		key[i] = letters[r];
+		n = rand() % 10;
+		key[i] = letters[n];
 		accu += key[i];
 		i++;
 	}
