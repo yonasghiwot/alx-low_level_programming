@@ -2,14 +2,13 @@
 /**
  * puts_half - Prints the last half of a string.
  * @str: input string
- * Return: nothing 
+ * Return: nothing
  */
 void puts_half(char *str)
 {
-	int i, j, length, halflenght;
+	int i, j, length, halflength;
 
 	i = 0;
-
 	while (*(str + i) != '\0')
 	{
 		i++;
@@ -18,7 +17,7 @@ void puts_half(char *str)
 	length = i;
 	if (length % 2 == 0)
 	{
-		halflength= length / 2;
+		halflength = length / 2;
 	}
 	else
 	{
@@ -26,7 +25,6 @@ void puts_half(char *str)
 	}
 
 	j = length - halflength;
-
 	while (*(str + j) != '\0')
 	{
 		_putchar(*(str + j));
