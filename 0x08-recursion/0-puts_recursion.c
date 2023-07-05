@@ -2,9 +2,9 @@
 
 /**
  * _puts_recursion -  a function that prints a string, followed by a new line.
- * @s - pointer to string 
+ * @s:a pointer to string to be called recursivle
  * return - nothing
- **/
+ */
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
