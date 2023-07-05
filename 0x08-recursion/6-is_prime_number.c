@@ -1,7 +1,5 @@
 #include "main.h"
 
-int real_prime(int n, int i);
-
 /**
  * is_prime_number - returns 1 if input integer is a prime number, otherwise 0
  * @n: input  number to evaluted
