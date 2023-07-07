@@ -3,9 +3,9 @@
 
 /**
  *  main - a a program that prints all arguments it receive
- *  	-All arguments should be printed, including the first one
- *  	-Only print one argument per line, ending with a
- * @argc: number of argument passed to the program
+ *	-All arguments should be printed, including the first one
+ *	=only print one argument per line, ending with
+ *@argc: number of argument passed to the program
  * @argv: Array name ,arrays of strings
  * Return: 0
  */
