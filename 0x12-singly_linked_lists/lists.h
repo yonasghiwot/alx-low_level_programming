@@ -30,4 +30,4 @@ void free_list(list_t *head);
 int _strlen(const char *s);
 char *_strdup(const char *str);
 
-#endif  
+#endif
