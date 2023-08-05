@@ -46,6 +46,7 @@ size_t print_listint_safe(const listint_t *head);
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 size_t free_listint_safe(listint_t **h);
 listint_t *reverse_listint(listint_t **head);
+size_t loop_check(const listint_t *begin, const listint_t *node, size_t pos);
 listint_t *find_listint_loop(listint_t *head);
 int _putchar(char c);
 
