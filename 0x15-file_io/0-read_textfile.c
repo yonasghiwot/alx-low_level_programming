@@ -34,14 +34,14 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 
-	w_bytes = write(STDOUT_FILENO, output, r_bytes);
+	w_bytes = write(STDOUT_FILENO, out, r_bytes);
 	if (w_bytes < r_bytes)
 	{
 		close(filedr);
-		free(output);
+		free(out);
 		return (0);
 	}
 	close(filedr);
-	free(output);
+	free(out);
 	return (w_bytes);
 }
