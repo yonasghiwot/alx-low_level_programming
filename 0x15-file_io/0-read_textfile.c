@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * read_textfile - reads a character filename and prints the letters
  * @filename: filename
  * @letters: numbers of letters printe
