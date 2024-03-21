@@ -20,7 +20,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	unsigned int i;
 
 	new_node = NULL;
-	if (idx == 0)	/* insert node at beginning of list */
+	if (idx == 0)
 		new_node = add_dnodeint(h, n);
 	else
 	{
@@ -33,7 +33,6 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		{
 			if (i == idx)
 			{
-				/* insert note at the end of list */
 				if (head->next == NULL)
 					new_node = add_dnodeint_end(h, n);
 				else
